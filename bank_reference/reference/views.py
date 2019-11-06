@@ -5,7 +5,7 @@ from django.db.models import Q
 
 
 class AddBank(View):
-    template_name = ('reference/add_bank.html')
+    template_name = ('reference/list_of_banks.html')
     form = AddBankForm
 
     def get(self, request):
@@ -17,7 +17,7 @@ class AddBank(View):
         if form.is_valid():
             created_form = form.save()
             return redirect(created_form)
-
+            
         return render(request, self.template_name, context={'form': form})
 
 

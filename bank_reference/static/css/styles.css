@@ -1,0 +1,13 @@
+body {
+  width: 1219px;
+  margin: auto;
+}
+
+.form-search {
+  float: right;
+  padding: 10px;
+}
+
+.add-new-bank {
+  margin: 10px;
+}

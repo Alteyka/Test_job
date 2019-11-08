@@ -11,3 +11,28 @@ body {
 .add-new-bank {
   margin: 10px;
 }
+
+.add_new_bank {
+  margin: 10px;
+}
+
+.input_form {
+  padding-top: 30px;
+  width: 500px;
+  margin: auto;
+}
+
+.input_form button {
+  width: 80px;
+  margin-left: 210px;
+  margin-right: 210px;
+}
+
+.input_form label {
+  text-align: center;
+}
+
+H2 {
+  text-align: center;
+  padding-top: 30px;
+}

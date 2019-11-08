@@ -4,4 +4,4 @@ from .models import *
 class AddBankForm(forms.ModelForm):
     class Meta:
         model = Bank
-        fields = '__all__'
+        fields = ('BIC', 'name', 'master_account', 'address')
